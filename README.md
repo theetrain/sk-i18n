@@ -6,13 +6,13 @@ SvelteKit.
 ## Features
 
 - Translation Remote Function in [src/lib/i18n.remote.ts](src/lib/i18n.remote.ts)
-- Typed
+- Typed translation keys and returned strings
 
 ## Todo
 
 - [x] Create `t` remote function that accepts translation keys
 - [ ] Add types to generated JSON
-- [ ] Create Vite plugin to enable HMR when CSV vales updates, with a CSV ->
+- [ ] Create Vite plugin to enable HMR when CSV values update, with a CSV ->
   JSON conversion pipeline
 - [ ] Adjust workflow to be:
   1. Provide gitignored CSV
